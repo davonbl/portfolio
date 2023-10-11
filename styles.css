@@ -1,0 +1,165 @@
+
+*{
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: mainFont;
+    src: url(/font-family/eight-bit-dragon-font/EightBitDragon-anqx.ttf)
+}
+
+header, .last-sentence, h3{
+    padding-top: 0.625rem; 
+}
+
+body{
+    font-family: mainFont,'Courier New', Courier, monospace; 
+    background: #1B1D22; 
+    color: whitesmoke; 
+}
+
+/* font */
+
+.about-me__info, .skills, h1, .home-main__p { 
+    font-family: 'Press Start 2P', cursive;
+
+}
+
+.about-me__info{
+    font-size: 0.8125rem;
+    padding-left: .9375rem;
+    padding-right: .9375rem;
+}
+
+h1{
+    font-size: 1.1875rem;
+}
+
+.home-main__p{
+    font-size:1rem; 
+}
+
+/* Navgiation Bar */
+
+ul{
+    font-style: none;
+    list-style: none;
+    text-align: center;
+}
+
+li a{
+    text-decoration: none;
+    color: white; 
+}
+
+.toc-nav{
+    display: inline-block; 
+    width: 20%;
+    padding-bottom: 3.125rem; 
+}
+
+/* Home Section */
+
+.home-photo{
+    border-radius: 4.2rem;
+}
+
+.skills-section-1{
+    width: 30%; 
+    display:inline-block; 
+}
+
+.skills-section-container{
+    width: 30%; 
+    display: inline-block;
+    text-align: center;
+}
+
+.home{
+    display: flex; 
+    justify-content: center;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    gap: 2.5rem;
+    padding-bottom: 1.875rem;
+    padding-top: 1.5625rem; 
+}
+
+h1, .home-main__p{
+    line-height: 1.5;
+}
+
+.home-main--info{
+    background: white;
+    color: black;
+    border-radius: 0.875rem;
+    height: 16.75rem;
+    padding-left: 0.875rem;
+}
+
+/* Skills Section  */
+
+.skills{
+    padding-bottom: 1.875rem;
+}
+
+.skills-section{
+   text-align: center;  
+}
+
+
+/* About Me Section */
+
+.about-me{
+    display: flex;
+    padding-bottom: 1.875rem;
+    justify-content: space-around;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+    gap: 2.5rem;
+    line-height: 1.5;
+}
+
+.about-me__info{
+    background: white;
+    color: black;
+    border-radius: .6875rem;
+    padding-left: .4375rem;
+    padding-right: .4375rem; 
+}
+
+.about-me__photo-edit{
+    border-radius: .875rem;
+    height: 15.8125rem;
+    margin: 3.25rem auto;
+}
+
+/* Contact Section  */
+
+.contact{
+    padding-bottom: 1.875rem;
+}
+
+.contact p{
+    line-height: 1.5;
+    padding-left: 2.5rem; 
+}
+
+.contact__link, .credit-link{
+    text-decoration: none;
+}
+
+
+/* Footer Section  */
+
+footer{
+    text-align: center;
+    padding-bottom: 1.875rem;
+}
+
+/* Other  */
+
+h3{
+    padding-left: 1.875rem;
+    padding-right: 1.875rem; 
+}
